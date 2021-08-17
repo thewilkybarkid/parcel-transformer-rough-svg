@@ -2,6 +2,23 @@
   "name": "parcel-transformer-rough-svg",
   "license": "MIT",
   "repository": "github:thewilkybarkid/parcel-transformer-rough-svg",
+  "keywords": [
+    "parcel",
+    "transformer",
+    "svg",
+    "roughjs",
+    "hand-drawn",
+    "sketch"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=14",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "@parcel/plugin": "^2.0.0-rc.0",
+    "rougher": "^1.1.2"
+  },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
