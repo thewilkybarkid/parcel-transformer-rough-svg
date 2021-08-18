@@ -1,0 +1,7 @@
+/.github/
+/.husky/
+/.commitlintrc.json
+/.eslintrc.json
+/.prettierignore
+/.prettierrc
+/test/
