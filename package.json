@@ -15,10 +15,10 @@
   "main": "index.js",
   "engines": {
     "node": ">=14",
-    "parcel": "^2.0.0-beta.1"
+    "parcel": "^2.0.0"
   },
   "dependencies": {
-    "@parcel/plugin": "^2.0.0-rc.0",
+    "@parcel/plugin": "^2.0.0",
     "rougher": "^1.1.2"
   },
   "devDependencies": {
