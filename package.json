@@ -1,6 +1,6 @@
 {
   "name": "parcel-transformer-rough-svg",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Parcel transformer to rough up SVGs using Rough.js.",
   "license": "MIT",
   "repository": "github:thewilkybarkid/parcel-transformer-rough-svg",
