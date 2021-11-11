@@ -17,6 +17,9 @@
     "node": ">=14",
     "parcel": "^2.0.0"
   },
+  "workspaces": [
+    "test/project"
+  ],
   "dependencies": {
     "@parcel/plugin": "^2.0.0",
     "rougher": "^1.1.2"

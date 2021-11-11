@@ -6,7 +6,7 @@ setup() {
 }
 
 roughen-svgs() { # @test
-  run npm --prefix test/project run build
+  run npm --workspace test/project run build
 
   assert_line --index 7 --regexp 'dist/circle\.[a-z0-9]{8}\.svg[[:space:]]+[1-9][0-9]*[[:space:]]*B'
   assert_line --index 8 --regexp 'dist/circle\.[a-z0-9]{8}\.svg[[:space:]]+[1-9][0-9]*(\.[0-9]{1,2})?[[:space:]]*KB'
